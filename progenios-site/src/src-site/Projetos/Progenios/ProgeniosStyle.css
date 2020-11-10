@@ -1,0 +1,431 @@
+.App {
+    text-align: center;
+  }
+  
+  .HeaderSP{
+    background-color: #242424;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HeaderS2P{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .HeaderS3P{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  
+  }
+  
+  .TextLinkP{
+    text-decoration: none;
+  }
+  
+  .TextHeaderP{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .MeioProgenios{
+    display: flex;
+    width: 100%;
+    height: 6000px;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    scroll-behavior: smooth;
+  }
+  
+  :root{
+    --top-DivImgAnim: 530px;
+    --left-AnimationL: 48.25%;
+  }
+
+  .DivAnimacao{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: gray;
+    flex-direction: column;
+
+  }
+
+  .DivAnimacao1{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+
+  }
+
+  .DivAnimacao2{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+  }
+
+  .DivAnimacao2::before{
+    content: '';
+    position:absolute;
+    width: 0px;
+    border-bottom: 200px solid transparent;
+    border-top: 200px solid transparent;
+    border-right: 70px solid red;
+    left: 4.85%;
+  }
+
+  .DivAnimacao2::after{
+    content: '';
+    position:absolute;
+    width: 0px;
+    border-bottom: 200px solid transparent;
+    border-top: 200px solid transparent;
+    border-left: 70px solid red;
+    right: 4.85%;
+  }
+
+  .ItensLinha{
+    display: flex;
+    width: 0px;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 37px solid black;
+    position: absolute;
+    top: 637px;
+    
+  }
+
+  .DivAnim{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+  }
+
+  .DivAnim{
+    animation: ImgAnimK 0.3s linear 0s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes ImgAnimKTrue{
+    0%{--top-DivImgAnim: 530px;}
+    10%{--top-DivImgAnim: 529px;}
+    20%{--top-DivImgAnim: 528px;}
+    30%{--top-DivImgAnim: 527px;}
+    40%{--top-DivImgAnim: 526px;}
+    50%{--top-DivImgAnim: 525px;}
+    60%{--top-DivImgAnim: 524px;}
+    70%{--top-DivImgAnim: 523px;}
+    80%{--top-DivImgAnim: 522px;}
+    90%{--top-DivImgAnim: 521px;}
+    100%{--top-DivImgAnim: 520px;}
+  }
+
+  @keyframes ImgAnimKFalse{
+    0%{--top-DivImgAnim: 520px;}
+    10%{--top-DivImgAnim: 521px;}
+    20%{--top-DivImgAnim: 522px;}
+    30%{--top-DivImgAnim: 523px;}
+    40%{--top-DivImgAnim: 524px;}
+    50%{--top-DivImgAnim: 525px;}
+    60%{--top-DivImgAnim: 526px;}
+    70%{--top-DivImgAnim: 527px;}
+    80%{--top-DivImgAnim: 528px;}
+    90%{--top-DivImgAnim: 529px;}
+    100%{--top-DivImgAnim: 530px;}
+  }
+
+  .DivImgAnim{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: var(--top-DivImgAnim);
+    background-color: bisque;
+  }
+
+  .BolaAnim{
+    position: relative;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: gray;
+  }
+
+  .BolaAnim:hover{
+    animation: BolaC 0.3s linear 1;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+
+  @keyframes BolaC{
+    from{background-color: gray;}
+    to{background-color: black;}
+  }
+
+  .LinhaAnim{
+    position: absolute;
+    width: 63%;
+    height: 10px;
+    background-color: black;
+  }
+
+  .DivLinhaP{
+    display: flex;
+    width: 5px;
+    height: 70px;
+    background-color: #1d69e5;
+  }
+
+
+  .C1TitleProgenios{
+    display: flex;
+    width: 85%;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
+
+  .C1HProgenios{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .C1Progenios{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C1TextoProgenios{
+    display: flex;
+    position: relative;
+    left: 3.5%;
+    width: 85%;
+    height: 450px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: '';
+  }
+
+  .DivVerdeProgenios{
+    display: flex;
+    position: relative;
+    right: 1px;
+    width: 100px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .C2TitleProgenios{
+    display: flex;
+    width: 85%;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
+
+  .C2HProgenios{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+
+  .C2Progenios{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C2TextoProgenios{
+    display: flex;
+    position: relative;
+    right: 3.5%;
+    width: 85%;
+    height: 400px;
+    text-align: justify;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+  }
+
+  .DivVerde2Progenios{
+    display: flex;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .C3TitleProgenios{
+    display: flex;
+    width: 85%;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  .C3HProgenios{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .C3Progenios{
+    display: flex;
+    width: 100%;
+    height: 2050px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C3TextoProgenios{
+    display: flex;
+    position: relative;
+    left: 3.5%;
+    width: 85%;
+    height: 2000px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    flex-direction: column;
+  }
+
+  .DivVerde3Progenios{
+    display: flex;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 2050px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .C4TitleProgenios{
+    display: flex;
+    width: 85%;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  .C4HProgenios{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .C4Progenios{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C4TextoProgenios{
+    display: flex;
+    position: relative;
+    right: 3.5%;
+    width: 85%;
+    height: 500px;
+    text-align: justify;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+  }
+
+  .DivVerde4Progenios{
+    display: flex;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }

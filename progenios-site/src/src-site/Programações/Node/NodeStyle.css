@@ -1,0 +1,136 @@
+.App {
+    text-align: center;
+  }
+  
+  .HeaderSP{
+    background-color: #242424;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HeaderS2P{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .HeaderS3P{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  
+  }
+  
+  .TextLinkP{
+    text-decoration: none;
+  }
+  
+  .TextHeaderP{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .MeioNode{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    justify-content: flex-start;
+    font-size: 30px;
+    flex-direction: column;
+  }
+
+  .NodeC{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .NodeTextoP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .C1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C1Texto{
+    display: flex;
+    position: relative;
+    left: 3.5%;
+    width: 85%;
+    height: 250px;
+    background-color: #242424;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .DivVerde{
+    display: flex;
+    position: relative;
+    right: 1px;
+    width: 100px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #354d2c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .C2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .C2Texto{
+    display: flex;
+    position: relative;
+    right: 3.5%;
+    width: 85%;
+    height: 250px;
+    background-color: #242424;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .DivVerde2{
+    display: flex;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #354d2c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+

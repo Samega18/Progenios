@@ -1,0 +1,236 @@
+.Footer{
+    background: linear-gradient(#323840,transparent);
+    background-color: #000000;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.LinhaFooter{
+  background-color: #000000;
+}
+
+.Resumo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ResumoTexto{
+  display: flex;
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.RedesSociais{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.SobreNos{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  
+}
+
+.DivSobreNos{
+  display: flex;
+  margin-top: 30px;
+  padding-left: 0px;
+  height: 40px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.TextLinkFooter{
+  text-decoration: none;
+  max-width: 100px;
+}
+
+.ImgFace{
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 25%;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ImgFace:hover{
+  animation: bg2 0.5s linear 1, bd 0.5s linear 1, none;
+  animation-fill-mode: forwards;
+}
+
+.ImgYouT{
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 25%;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ImgYouT:hover{
+  animation: bg2 0.5s linear 1, bd 0.5s linear 1, none;
+  animation-fill-mode: forwards;
+}
+
+.ImgInsta{
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 25%;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ImgInsta:hover{
+  animation: bg2 0.5s linear 1, bd 0.5s linear 1, none;
+  animation-fill-mode: forwards;
+}
+
+.ImgTwit{
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 25%;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ImgTwit:hover{
+  animation: bg2 0.5s linear 1, bd 0.5s linear 1, none;
+  animation-fill-mode: forwards;
+}
+
+.ImgGit{
+  background-color: #000000;
+  border: 3px solid;
+  border-color: #000000;
+  border-radius: 25%;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.ImgGit:hover{
+  animation: bg2 0.5s linear 1, bd 0.5s linear 1, none;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bd{
+  from{border-color: #000000;}
+  to{border-color: white;}
+}
+
+@keyframes bg2{
+  from{background-color: #000000;}
+  to{background-color: white;}
+}
+
+@keyframes bg {
+  0%{
+    background-image: linear-gradient(to left, transparent 100%,white ), none;
+  }
+  5%{
+    background-image: linear-gradient(to left, transparent 95%,white ), none;
+  }
+  10%{
+    background-image: linear-gradient(to left, transparent 90%,white ), none;
+  }
+  15%{
+    background-image: linear-gradient(to left, transparent 85%, white ), none;
+  }
+  20%{
+    background-image: linear-gradient(to left, transparent 80%, white ), none;
+  }
+  25%{
+    background-image: linear-gradient(to left, transparent 75%, white ), none;
+  }
+  30%{
+    background-image: linear-gradient(to left, transparent 70%, white ), none;
+  }
+  35%{
+    background-image: linear-gradient(to left, transparent 65%, white ), none;
+  }
+  40%{
+    background-image: linear-gradient(to left, transparent 60%, white ), none;
+  }
+  45%{
+    background-image: linear-gradient(to left, transparent 55%, white ), none;
+  }
+
+  50%{
+    background-image: linear-gradient(to left, transparent 50%,white ), none;
+  }
+  55%{
+    background-image: linear-gradient(to left, transparent 45%,white ), none;
+  }
+  60%{
+    background-image: linear-gradient(to left, transparent 40%,white ), none;
+  }
+  65%{
+    background-image: linear-gradient(to left, transparent 35%, white ), none;
+  }
+  70%{
+    background-image: linear-gradient(to left, transparent 30%, white ), none;
+  }
+  75%{
+    background-image: linear-gradient(to left, transparent 25%, white ), none;
+  }
+  80%{
+    background-image: linear-gradient(to left, transparent 20%, white ), none;
+  }
+  85%{
+    background-image: linear-gradient(to left, transparent 15%, white ), none;
+  }
+  90%{
+    background-image: linear-gradient(to left, transparent 10%, white ), none;
+  }
+  95%{
+    background-image: linear-gradient(to left, transparent 5%, white ), none;
+  }
+  96%{
+    background-image: linear-gradient(to left, transparent 4%, white ), none;
+  }
+  97%{
+    background-image: linear-gradient(to left, transparent 3%, white ), none;
+  }
+  98%{
+    background-image: linear-gradient(to left, transparent 2%, white ), none;
+  }
+  99%{
+    background-image: linear-gradient(to left, transparent 1%, white ), none;
+  }
+  100%{
+    background-image: linear-gradient(to left, transparent, white 1%), none;
+  }
+}
+
+.Email{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}

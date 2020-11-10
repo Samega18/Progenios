@@ -1,0 +1,113 @@
+.App {
+    text-align: center;
+  }
+  
+  .HeaderSP{
+    background-color: #242424;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HeaderS2P{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .HeaderS3P{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  
+  }
+  
+  .TextLinkP{
+    text-decoration: none;
+  }
+  
+  .TextHeaderP{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .MeioProgramacoes{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .MeioTecImgs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+  }
+
+  .Comp{
+    --width: 90%;
+  }
+
+  .ProgramacoesFundo{
+    display: flex;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #1C1C1C;
+    transition: transform 0.5s;
+  }
+
+  .ProgramacoesFundo:hover{
+    transform: scale(0.95);
+  }
+
+  .ProgramacoesTexto{
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    width: 50%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color:#363636;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .ProgramacoesTextoP{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .SaibaMais{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    right: 5px;
+    bottom: 5px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+
